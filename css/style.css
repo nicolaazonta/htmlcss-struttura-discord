@@ -6,8 +6,8 @@
 
 
 /* utilities */
-.w_70{
-    width: 70%;
+.w_65{
+    width: 65%;
     margin: auto;
 }
 
@@ -16,7 +16,7 @@
 }
 
 .b_dashed{
-    border: 1px dashed black;
+    border: 2px dashed black;
 }
 
 .m_lr{
@@ -60,17 +60,104 @@ div>div>span{
 
 /* main */
 
-.p_container{
+/* #region---main section */
+.main_container{
     width: 50%;
     aspect-ratio: 5/2;
     background-color: aqua;
-
 }
-
-.p_section{
+.main_section{
     background-color: coral;
     height: 24rem;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+/* #endregion */
+
+/* #region---second section */
+.s_section{
+    background-color:bisque;
+    height: 30rem;
+    display: flex;
+}
+.s_all_contain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.s_bigger_cont{
+    background-color: coral; 
+    flex-grow: 2;
+    height: 25rem;   
+}
+.s_smaller_cont{
+    background-color:deepskyblue; 
+    flex-grow: 1; 
+    height: 25rem;    
+}
+/* #endregion */
+
+/* #region---third section*/
+.t_section{
+    background-color:rgba(137, 43, 226, 0.441);
+    height: 30rem;
+    display: flex;
+}
+.t_all_contain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.t_bigger_cont{
+    background-color: coral; 
+    flex-grow: 1;
+    height: 25rem;   
+}
+.t_smaller_cont{
+    background-color:deepskyblue; 
+    flex-grow: 2; 
+    height: 25rem;    
+}
+/* #endregion */
+
+/* #region---fourth section */
+
+.f_section{
+    background-color:bisque;
+    height: 30rem;
+    display: flex;
+}
+.f_all_contain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.f_bigger_cont{
+    background-color: coral; 
+    flex-grow: 2;
+    height: 25rem;   
+}
+.f_smaller_cont{
+    background-color:deepskyblue; 
+    flex-grow: 1; 
+    height: 25rem;    
+}
+/* #endregion */
+
+
+
+/* #region---last section */
+.last_section{
+    background-color: coral;
+    height: 50rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.last_container{
+    width: 65%;
+    height: 45rem;
+    background-color: aqua;
+}
+/* #endregion */
