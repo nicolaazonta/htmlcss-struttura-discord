@@ -1,11 +1,14 @@
+
+/* #region---general */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+/* #endregion---general */
 
 
-/* utilities */
+/* #region---utilities */
 .w_65{
     width: 65%;
     margin: auto;
@@ -23,18 +26,21 @@
     margin: 0 0.5rem;
 }
 
+.d_flex{
+    display: flex;
+}
+/* #endregion*/
 
 
-/* header */
+
+/* #region---header */
 header{
     background-color: blueviolet;
     height: 4rem;
-    display: flex;
     align-items: center;
 }
 
 .menu{
-    display: flex;
     justify-content: space-between;
     height: 2rem;
     background-color: aqua;
@@ -56,9 +62,10 @@ header{
 div>div>span{
     line-height: 2rem;
 }
+/* #endregion*/
 
 
-/* main */
+/* #region---main */
 
 /* #region---main section */
 .main_container{
@@ -75,77 +82,43 @@ div>div>span{
 }
 /* #endregion */
 
-/* #region---second section */
+/* #region---secondary sections */
 .s_section{
     background-color:bisque;
     height: 30rem;
-    display: flex;
 }
 .s_all_contain{
-    display: flex;
     justify-content: center;
     align-items: center;
 }
-.s_bigger_cont{
+.img_cont{
     background-color: coral; 
     flex-grow: 2;
     height: 25rem;   
 }
-.s_smaller_cont{
+.txt_cont{
     background-color:deepskyblue; 
     flex-grow: 1; 
     height: 25rem;    
 }
 /* #endregion */
 
-/* #region---third section*/
-.t_section{
-    background-color:rgba(137, 43, 226, 0.441);
-    height: 30rem;
-    display: flex;
+/* #region---PLACE section */
+#place_section
+/* #endregion */
+
+/* #region---MEET section */
+#meet_section .s_all_contain{
+    flex-direction: row-reverse;
 }
-.t_all_contain{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.t_bigger_cont{
-    background-color: coral; 
-    flex-grow: 1;
-    height: 25rem;   
-}
-.t_smaller_cont{
-    background-color:deepskyblue; 
-    flex-grow: 2; 
-    height: 25rem;    
+#meet_section{
+    background-color: lightblue;
 }
 /* #endregion */
 
-/* #region---fourth section */
-
-.f_section{
-    background-color:bisque;
-    height: 30rem;
-    display: flex;
-}
-.f_all_contain{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.f_bigger_cont{
-    background-color: coral; 
-    flex-grow: 2;
-    height: 25rem;   
-}
-.f_smaller_cont{
-    background-color:deepskyblue; 
-    flex-grow: 1; 
-    height: 25rem;    
-}
+/* #region---FANDOM section */
+#fandom_section
 /* #endregion */
-
-
 
 /* #region---last section */
 .last_section{
@@ -161,3 +134,13 @@ div>div>span{
     background-color: aqua;
 }
 /* #endregion */
+
+/* #endregion---main */
+
+
+/* #region---footer */
+/* #endregion*/
+
+
+
+
