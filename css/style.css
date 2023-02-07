@@ -104,20 +104,18 @@ div>div>span{
 /* #endregion */
 
 /* #region---PLACE section */
-#place_section
 /* #endregion */
 
 /* #region---MEET section */
-#meet_section .s_all_contain{
+#meet_section .s_all_contain {
     flex-direction: row-reverse;
 }
 #meet_section{
-    background-color: lightblue;
+    background-color:lightcyan;
 }
 /* #endregion */
 
 /* #region---FANDOM section */
-#fandom_section
 /* #endregion */
 
 /* #region---last section */
